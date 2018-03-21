@@ -3,7 +3,11 @@ title: Build a Geometry (Meshforge)
 permalink: /sphere/Meshforge/
 ---
 
-
+[screenshot school1]: {{site.baseurl}}/sphere/img/m_school1.png
+[screenshot school2]: {{site.baseurl}}/sphere/img/m_school2.png
+[screenshot school2b]: {{site.baseurl}}/sphere/img/m_school2bis.png
+[screenshot school3]: {{site.baseurl}}/sphere/img/m_school3.png
+[screenshot school3b]: {{site.baseurl}}/sphere/img/m_school3bis.png
 [screenshot mui]: {{site.baseurl}}/sphere/img/m_mui.png
 [screenshot merging]: {{site.baseurl}}/sphere/img/m_merge123.png
 [screenshot merging2]: {{site.baseurl}}/sphere/img/m_merge.png
@@ -33,8 +37,18 @@ The process to build them should be really simple and require only two component
 + AudioMaterial : This is a set of audio characteristics (transmissions/reflections/absorbtions).  
 + AudioCollider : Like any other Unity's colliders they can be moved and reshaped to match your environment but in addition an AudioMaterial can be associated to each of their faces.
 
-The Meshforge Unity Interface is here to provide you a wide set of tools to manipulate AudioMaterials and AudioColliders.
+ example:
 
+1. A simple Unity scene. 
+![school scene][screenshot school1]
+
+2. We use Audiocolliders to roughly describe our volumes. 
+![school scene with AudioColliders][screenshot school2b]
+
+3. and we associate a corresponding AudioMaterial to each reflective surfaces
+![school scene with AudioMaterials][screenshot school3b]
+
+The Meshforge Unity Interface should provide you all the required tools to build your AudioColliders and Audiomaterials.
 
 ## Meshforge Unity Interface
 
