@@ -101,10 +101,6 @@ Material Picker help you asociate AudioMaterials with AudioColliders.
 
 We don't directly associate an AudioMaterial to an AudioCollider face, we use the Material Picker to define a label, and then we associate a label to AudioColliders faces. In practice this allow us to easily change the AudioMaterial on all faces who share the same label.
 
-### Default label
-
-The first label "Default" can't be renamed and must be given an AudioMaterial(transparent), It will be used by default on new colliders and associated on faces created by the merge of multiple AudioColliders (see AudioCollider editor).
-
 ### Paint Mode
 
 You can select(highlight) a label in the Material Picker, if 'Paint Mode' is enabled a simple click on an AudioCollider face will change is associated label.

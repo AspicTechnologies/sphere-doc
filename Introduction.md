@@ -18,8 +18,8 @@ Sphere by Aspic Technologies is a geometry based audio plugin for 3D game engine
 
 ## Concept
 
-Most current tools used in game sound design require from the developper to manually define reverb zones and triggers, this approach require high level of sound expertise and a lot of tweeking to obtain a realistic result.
-Sphere use a Geometrical approach with 3D audio materials to dynamically generate the most appropriates sound effects for each point of your scene, reaching a level of precision unnatainable otherwise.
+Most current tools used in game sound design require from the developper to manually define reverb zones and triggers, this approach require high level of sound expertise and a lot of tweeking to obtain realistic results.
+Sphere is based on a Geometrical approach using 3D audio materials to dynamically generate the most appropriates sound effects for each point of your scene, reaching a level of precision unnatainable otherwise.
 
 ## Main features
 

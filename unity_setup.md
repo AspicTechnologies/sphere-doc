@@ -64,7 +64,7 @@ The ATSphere_Settings script.
 
 
 ##### License Key
-You should have a generated a license file (.bytes) to put here, if not, go back to the [first chapter](/Doc/sphere/installation) you may have missed something.
+You should have generated a license file (.bytes) to put here, if not, go back to the [first chapter](/Doc/sphere/installation) you may have missed something.
 
 ##### Master gain
 A simple gain affecting all the Spatialized Audio Sources
